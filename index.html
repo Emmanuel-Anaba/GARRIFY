@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARRIFY</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand">Garrify</a>
+            <!-- Toggle Btn -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWarningNavbar" aria-controls="offcanvasWarningNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Sidebar -->
+            <div class="offcanvas offcanvas-start text-bg-warning" tabindex="-1" id="offcanvasWarningNavbar"
+                aria-labelledby="offcanvasWarningNavbarLabel">
+                <!-- Sidebar Header -->
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasWarningNavbarLabel">
+                        Garrify
+                    </h5>
+
+                    <!-- Close Btn -->
+                    <button type="button" class="btn-close btn-close-white shadow-none border-0"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar Body -->
+                <div class="offcanvas-body d-flex align-items-center">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-white w3-bar-item btn w3-button" href="#home">
+                                <i class="fa fa-home pe-1"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white w3-bar-item btn w3-button" href="#menu">
+                                <i class="fa fa-list pe-1"></i>Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white w3-bar-item btn w3-button" href="#about">
+                                <i class="fa fa-user pe-1"></i>About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white w3-bar-item btn w3-button" href="order.html">
+                                <i class="fa fa-tasks pe-1"></i>Order
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white w3-bar-item btn w3-button" href="#contact">
+                                <i class="fa fa-envelope pe-1"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="vh-100 d-flex align-items-center justify-content-between">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center p-2">
+                    <h1 class="display-1">GARRIFY</h1>
+                    <a href="order.html" class="btn bg-white fs-4">ORDER A MEAL</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu -->
+    <main id="menu" class="p-3">
+        <h2 class="text-center p-3">Our Delicious 😋 Menu</h2>
+        <div class="py-2 container">
+            <div class="row">
+                <div class="col-md-4 p-2">
+                    <div class="card bg-warning p-3">
+                        <h5 class="text-center text-white p-2">Appetizers</h5>
+                        <div class="text-center">
+                            <img class="round" src="images/garri-bruschetta.webp" alt="Garri Bruschetta" width="30%">
+                        </div>
+                        <div class="text-white border-bottom my-2 d-flex justify-content-between">
+                            <span>
+                                <h5>Garri Bruschetta</h5>
+                                <p>Crispy garri crostini topped with diced tomatoes, onions, and basil.</p>
+                            </span>
+                            <span>
+                                <button class="btn mx-1 p-1 bg-white">$13.50</button>
+                            </span>
+                        </div>
+                        <div class="text-center">
+                            <img class="round" src="images/garri-and-okra-fritters.webp" alt="Garri and Okra Fritters"
+                                width="30%">
+                        </div>
+                        <div class="text-white border-bottom my-2 d-flex justify-content-between">
+                            <span>
+                                <h5>Garri and Okra Fritters</h5>
+                                <p>Deep-fried garri and okra bites served with a spicy dipping sauce.</p>
+                            </span>
+                            <span>
+                                <button class="btn mx-1 p-1 bg-white">$13.50</button>
+                            </span>
+                        </div>
+
+                        <button class="my-2 btn bg-white">
+                            See More
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="card bg-warning p-3">
+                        <h5 class="text-center text-white p-2">Main Courses</h5>
+                        <div class="text-center">
+                            <img class="round" src="images/garri-crusted-tilapia.webp" alt="Garri-Crusted Tilapia"
+                                width="30%">
+                        </div>
+                        <div class="text-white border-bottom my-2 d-flex justify-content-between">
+                            <span>
+                                <h5>Garri-Crusted Tilapia</h5>
+                                <p>Tilapia with a crispy garri crust, plated with vibrant vegetables.</p>
+                            </span>
+                            <span>
+                                <button class="btn mx-1 p-1 bg-white">$13.50</button>
+                            </span>
+                        </div>
+                        <div class="text-center">
+                            <img class="round" src="images/garri-with-grilled-chicken.webp"
+                                alt="Garri with Grilled Chicken" width="30%">
+                        </div>
+                        <div class="text-white border-bottom my-2 d-flex justify-content-between">
+                            <span>
+                                <h5>Garri with Grilled Chicken</h5>
+                                <p>Garri paired with beautifully grilled chicken pieces</p>
+                            </span>
+                            <span>
+                                <button class="btn mx-1 p-1 bg-white">$13.50</button>
+                            </span>
+                        </div>
+
+                        <button class="my-2 btn bg-white">
+                            See More
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="card bg-warning p-3">
+                        <h5 class="text-center text-white p-2">Desserts</h5>
+                        <div class="text-center">
+                            <img class="round" src="images/garri-parfait.webp" alt="Garri Parfait" width="30%">
+                        </div>
+                        <div class="text-white border-bottom my-2 d-flex justify-content-between">
+                            <span>
+                                <h5>Garri Parfait</h5>
+                                <p>Layers of soaked garri, yogurt, and fresh, vibrant fruits</p>
+                            </span>
+                            <span>
+                                <button class="btn mx-1 p-1 bg-white">$13.50</button>
+                            </span>
+                        </div>
+                        <div class="text-center">
+                            <img class="round" src="images/garri-cooler.jpg" alt="Hibiscus Garri Cooler" width="30%">
+                        </div>
+                        <div class="text-white border-bottom my-2 d-flex justify-content-between">
+                            <span>
+                                <h5>Hibiscus Garri Cooler</h5>
+                                <p>Refreshing hibiscus drink infused with garri, served over ice</p>
+                            </span>
+                            <span>
+                                <button class="btn mx-1 p-1 bg-white">$13.50</button>
+                            </span>
+                        </div>
+
+                        <button class="my-2 btn bg-white">
+                            See More
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- About -->
+    <main id="about" class="p-3 bg-warning">
+        <h2 class="text-center p-3 text-white">About Us</h2>
+        <div class="py-2 container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card border-0 bg-transparent">
+                        <p class="text-white">
+                            Garrify Restaurant was founded in 2022 by Mr. Italiano in lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                            ea commodo consequat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                            ipsam ab doloribus minima praesentium quo est ea officia accusantium cupiditate! Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Voluptas, vitae quos tempora eos provident, est
+                            qui totam cum eum sed nobis et dicta veritatis! Aliquid, laudantium. Harum cupiditate vel
+                            omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eveniet! Lorem ipsum
+                            dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card border-0 bg-transparent">
+                        <img src="images/restuarant.webp" alt="restaurant">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact -->
+    <section id="contact" class="container-fluid p-3">
+        <h3 class="text-warning p-3 text-center">Contact Us</h3>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-md-12">
+                    <div class="card bg-transparent border-0 fs-5 text-center m-3">
+                        <p>Find us at some address at 357a Ajelekoko Street or call us at 081816846241<br>
+                            Reserve a table, ask for today's special or just send us a message:
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-white bg-transparent border-0 fs-5 text-center m-3">
+                        <form>
+                            <input class="form-control border-2 my-2" placeholder="Your Name" type="text" required>
+                            <input class="form-control border-2 my-2" placeholder="How many people?" type="number"
+                                required>
+                            <input class="form-control border-2 my-2" type="datetime-local" placeholder="Date and time"
+                                required="" name="date" value="2020-11-16T20:00">
+                            <textarea class="form-control border-2" placeholder="Message \ Special Requirements"
+                                cols="20" rows="5"></textarea>
+                            <div class="text-start">
+                                <button class="btn btn-warning mt-3 px-4 text-white">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="vh-50 bg-warning">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 my-5">
+                    <h5 class="text-white">Garrify</h5>
+                    <p class="text-white">
+                        Call : 081816846241
+                        <br>
+                        Address : 357a Ajelekoko Street.
+                    </p>
+                </div>
+                <div class="col md-12 py-3">
+                    <div class="card bg-transparent py-4 rounded-0" id="footer">
+                        <p class="text-white">Copyright © 2023 All rights reserved | Garrify</p>
+                        <div>
+                            <a href="#" class="text-white me-2"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#" class="text-white m-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white m-2"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="text-white m-2"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

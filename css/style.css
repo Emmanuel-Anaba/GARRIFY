@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Image in the Header */
+header{
+  background-image: url(/images/bg.webp)!important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Boldness of GARRIFY */
+header h1{
+    font-weight: 600!important;
+}
+
+/* Image in the menu */
+.round {
+  border-radius: 100%;
+  border: 2px white solid;
+}
+
+/* Navbar Shadow */
+.navbar {
+  box-shadow: 0 2px 15px 0  rgba(0, 0, 0, 0.2);
+}
+
+/* Hover on navbar links */
+.nav-link{
+  position: relative;
+}
+
+.nav-link::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before{
+  width: 100%;
+}
+
+/* Border in footer */
+#footer{
+  border-top: 2px solid #fff;
+  border-right: 0px solid #fff;
+  border-bottom: 0px solid #fff;
+  border-left: 0px solid #fff;
+}
